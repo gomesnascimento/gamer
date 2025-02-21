@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Gamer</title>
+
+</head>
+
+<body>
+
+    <div class="caixa">
+        <img src="gamer.png" alt="Games">
+
+
+        <h1>O que você encontra aqui</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptates harum eius
+            officia laudantium tempora, minima consequatur
+            itaque dolor, cupiditate deleniti est suscipit
+            quisquam facilis vero magnam,
+            rerum dolore atque molestiae.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptates harum eius
+            officia laudantium tempora, minima consequatur
+            itaque dolor, cupiditate deleniti est suscipit
+            quisquam facilis vero magnam,
+            rerum dolore atque molestiae.
+        </p>
+
+
+        <button onclick="abrir()">Entrar em Contato</button>
+    </div>
+
+    <form action="https://formsubmit.co/your@email.com" method="POST">
+        <input type="text" name="name" placeholder="Seu Nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" autocomplete="off" re>
+        <textarea placeholder="Sua dúvida aqui"></textarea>
+        <button onclick="voltar()" type="submit">Enviar</button>
+    </form>
+
+
+</body>
+<script>
+    
+    function abrir() {
+
+        document.querySelector("form").style.opacity = 1;
+        document.querySelector(".caixa").style.opacity = 0.3;
+    }
+
+    function voltar() {
+        document.querySelector("form").style.opacity = 0;
+        document.querySelector(".caixa").style.opacity = 1;
+    }
+
+
+
+</script>
+
+</html>""
