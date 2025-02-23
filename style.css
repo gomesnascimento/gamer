@@ -96,6 +96,10 @@ button:hover{
         width: 100vh;
         max-width: 100%;
     }
+
+    img {
+        object-fit: cover;
+    }
      
     h1 {
         font-size: 26px;
@@ -111,6 +115,30 @@ button:hover{
     .caixa{ 
         width: 100vh;
         max-width: 100%;
+    }
+
+    img {
+        object-fit: cover;
+    }
+     
+    h1 {
+        font-size: 26px;
+    }
+    p {
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 360px) {
+    .caixa{ 
+        width: 100%;
+    }
+
+    
+    img {
+        object-fit: cover;
     }
      
     h1 {
