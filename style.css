@@ -8,6 +8,7 @@
 body {
     background-color: #01295E;
 }
+
 .caixa {
     width: 100%;
 }
@@ -35,7 +36,7 @@ form {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     opacity: 0;
     transition: opacity 1s;
@@ -68,16 +69,17 @@ textarea {
     font-size: 20px;
 }
 
-button{
+button {
     background-color: #40bb15;
     border: none;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
     width: 189px;
-    cursor: pointer;  
+    cursor: pointer;
     color: #ffffff;
 }
+
 .btn {
     background: gray;
 }
@@ -86,73 +88,183 @@ div {
     transition: opacity 1s;
 }
 
-button:hover{
+button:hover {
     opacity: 0.8;
 
 }
 
-@media screen and (max-width: 443px) {
-    .caixa{ 
+@media screen and (max-width: 449px) {
+    .caixa {
         width: 100vh;
-        max-width: 100%;
     }
 
     img {
         object-fit: cover;
     }
-     
+
     h1 {
         font-size: 26px;
     }
+
     p {
         text-align: center;
     }
 
-    
+    form {
+        background-color: #ffffff;
+        padding: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+
+    input {
+        display: block;
+        background-color: #c1c1c1;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        width: 220px;
+        height: 50px;
+        padding: 15px;
+        outline: none;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    textarea {
+        display: block;
+        background-color: #c1c1c1;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        width: 220px;
+        height: 100px;
+        padding: 15px;
+        outline: none;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width: 375px) {
-    .caixa{ 
+/* 
+ @media screen and (max-width: 443px) {
+    .caixa {
         width: 100vh;
-        max-width: 100%;
     }
 
     img {
         object-fit: cover;
     }
-     
+
     h1 {
         font-size: 26px;
     }
+
     p {
         text-align: center;
     }
 
-    
+    form {
+        background-color: #ffffff;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+
+    input {
+        display: block;
+        background-color: #c1c1c1;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        width: 250px;
+        height: 50px;
+        padding: 15px;
+        outline: none;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    textarea {
+        display: block;
+        background-color: #c1c1c1;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
+        padding: 15px;
+        outline: none;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
 }
+
 
 @media screen and (max-width: 360px) {
-    .caixa{ 
-        width: 100%;
+    .caixa {
+        width: 100vw;
     }
 
-    
     img {
         object-fit: cover;
     }
-     
+
     h1 {
         font-size: 26px;
     }
+
     p {
         text-align: center;
     }
 
-    
-}
+    form {
+        background-color: #ffffff;
+        padding: 20px; 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+
+    input {
+        display: block;
+        background-color: #c1c1c1;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        width: 250px;
+        height: 50px;
+        padding: 15px;
+        outline: none;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
 
 
+    textarea {
+        display: block;
+        background-color: #c1c1c1;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
+        padding: 15px;
+        outline: none;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+} 
 
-
-
-
+ */
